@@ -1,0 +1,59 @@
+@font-face {
+  font-family: 'NixieOne';
+  src: url('../fonts/NixieOne-Regular.otf');
+}
+
+@media only screen
+  and (min-device-width: 350px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .bg {
+      background-color: #0C0C0C;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      background-position: center;
+    }
+
+    .custom-title-size-1 {
+      font-size: 40pt;
+  }
+}
+
+
+@media only screen
+ and (min-device-width: 768px) {
+   .bg {
+     background-color: #0C0C0C;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-size: cover;
+   }
+
+   .custom-title-size-1 {
+     font-size: 60pt;
+  }
+}
+
+.logo-title {
+  font-family: NixieOne;
+	word-spacing: 3px;
+  letter-spacing: 15px;
+	color: #FFFFFF;
+}
+
+.custom-subtitle {
+  font-family: NixieOne;
+  color: #FFFFFF;
+  font-size: 20pt;
+}
+
+.font-override {
+  font-family: NixieOne;
+  font-weight: bold;
+}
+
+.custom-underline {
+  border-bottom: 1px solid white;
+}
