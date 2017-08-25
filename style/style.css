@@ -9,10 +9,16 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
     .custom-title-size-1 {
-      font-size: 40pt;
+      font-size: 20pt;
   }
   .custom-title-size-2 {
-      font-size: 25pt;
+      font-size: 15pt;
+  }
+
+  .custom-subtitle {
+    font-family: NixieOne;
+    color: #FFFFFF;
+    font-size: 15pt;
   }
 }
 
@@ -25,6 +31,12 @@
   .custom-title-size-2 {
      font-size: 35pt;
   }
+
+  .custom-subtitle {
+    font-family: NixieOne;
+    color: #FFFFFF;
+    font-size: 20pt;
+  }
 }
 
 .logo-title {
@@ -32,12 +44,6 @@
 	word-spacing: 3px;
   letter-spacing: 15px;
 	color: #FFFFFF;
-}
-
-.custom-subtitle {
-  font-family: NixieOne;
-  color: #FFFFFF;
-  font-size: 20pt;
 }
 
 .font-override {
