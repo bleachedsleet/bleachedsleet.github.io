@@ -1,0 +1,63 @@
+/* CSS for the personal website */
+@keyframes pulse {
+    0%, 100% { text-shadow: 0 0 10px #FFBF00, 0 0 20px #FFBF00, 0 0 30px #FFBF00, 0 0 40px #FFBF00; }
+    50% { text-shadow: 0 0 5px #FFBF00, 0 0 10px #FFBF00, 0 0 15px #FFBF00, 0 0 20px #FFBF00; }
+}
+
+/* Set the background color to black */
+body {
+    background-color: #111111;
+}
+a:link, a:visited, a:hover, a:active {
+    color: #BF8F00; /* Darker amber color */
+}
+li {
+    margin-bottom: 10px; /* Adjust as needed */
+}
+
+/* Center the terminal div */
+.terminal {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 100h;
+}
+@media (max-width: 600px) {
+    .terminal {
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+/* Style the ASCII art title */
+pre {
+    color: #FFBF00; /* Amber text color */
+    text-shadow: 0 0 10px #FFBF00, 0 0 20px #FFBF00, 0 0 30px #FFBF00, 0 0 40px #FFBF00;
+    animation: pulse 2s infinite;
+    font-family: monospace;
+    font-size: 12px;
+    text-align: center;
+}
+
+.section {
+    font-family: monospace;
+    color: #BF8F00; /* Darker amber color */
+    max-width: 600px;
+    padding: 20px;
+}
+
+.section h2 {
+    border-bottom: 1px solid #BF8F00; /* Darker amber color */
+    padding-bottom: 10px;
+}
+
+.section p {
+    text-align: justify;
+    line-height: 1.6;
+}
+
+@media (min-width: 601px) {
+    .section {
+        margin: 0;
+    }
+}
